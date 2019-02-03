@@ -1,0 +1,120 @@
+old_about
+
+
+<?php
+
+include "_includes/config.php";
+
+include  ABSOLUTE_PATH . "/_includes/header.php";
+include ABSOLUTE_PATH . "/_includes/main_nav.php";
+
+?>
+
+<div class="headerText">About Blake</div>
+</div> <!-- ENDS HEADER -->
+
+<div id="aboutWrapper">
+
+    <div id="aboutSectionWrapper">
+
+        <div id="aboutTopSection">
+
+            
+
+            <div id="description">Currently a Senior at IUPUI
+                of Indianapolis pursuing a Bachelor of Science degree with a focus
+                in Web Development.  During my time spent on the web development track
+                I found a love for the front-end side of things and decided to align my sights
+                to become a front-end developer. I do my best to ensure my websites are
+                professional, responsive, user-friendly.
+            </div>
+        </div> <!-- end top section -->
+
+        <div id="aboutBotSection">
+
+            <div id="botTitle">Skills</div>
+
+            <div id="botSection">
+                <div id="botLeft">
+                    <div class="botHeaders">Front-End</div>
+
+                    <div class="logoSection">
+                        <div class="aboutLogos">
+                            <div class="logoPic" id="html"></div>
+                            <div class="logoName">HTML</div>
+                        </div>
+
+                        <div class="aboutLogos">
+                            <div class="logoPic" id="css"></div>
+                            <div class="logoName">CSS</div>
+                        </div>
+
+                        <div class="aboutLogos">
+                            <div class="logoPic" id="sass"></div>
+                            <div class="logoName">SASS</div>
+                        </div>
+
+                        <div class="aboutLogos">
+                            <div class="logoPic" id="javascript"></div>
+                            <div class="logoName">JavaScript</div>
+                        </div>
+
+                        <div class="aboutLogos">
+                            <div class="logoPic" id="jquery"></div>
+                            <div class="logoName">JQuery</div>
+                        </div>
+
+                        <div class="aboutLogos">
+                            <div class="logoPic" id="react"></div>
+                            <div class="logoName">React</div>
+                        </div>
+
+                    </div> <!-- end front end section -->
+
+
+                    <div class="botHeaders">Back-End</div>
+                    <div class="logoSection">
+                        <div class="aboutLogos">
+                            <div class="logoPic" id="php"></div>
+                            <div class="logoName">PHP</div>
+                        </div>
+
+                        <div class="aboutLogos">
+                            <div class="logoPic" id="sql"></div>
+                            <div class="logoName">SQL</div>
+                        </div>
+                    </div>
+
+                    <div class="botHeaders">Design</div>
+                    <div class="logoSection">
+                        <div class="aboutLogos">
+                            <div class="logoPic" id="photoshop"></div>
+                            <div class="logoName">Photoshop</div>
+                        </div>
+
+                        <div class="aboutLogos">
+                            <div class="logoPic" id="illustrator"></div>
+                            <div class="logoName">Illustrator</div>
+                        </div>
+
+                        <div class="aboutLogos">
+                            <div class="logoPic" id="xd"></div>
+                            <div class="logoName">XD</div>
+                        </div>
+                    </div>
+
+
+
+                </div>
+            </div>
+        </div>
+    </div>
+
+</div>
+<?php
+
+include  ABSOLUTE_PATH . "/_includes/footer.php";
+
+?>
+
+

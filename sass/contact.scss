@@ -1,0 +1,178 @@
+#contactPageWrapper {
+  //width: 100%;
+  min-height: 300px;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  //align-items: flex-start;
+  margin-bottom: 30px;
+}
+
+#topContact {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+//style for the top two inputs
+#name, #email {
+  width: 225px;
+}
+
+.formPart {
+  margin-bottom: 23px;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+form {
+  //border: 1px black solid;
+  padding: 20px;
+  margin-top: 10px;
+  width: 500px;
+  > div {
+    position: relative;
+  }
+
+
+  //style for the input and textarea
+  input, textarea {
+    width: 100%;
+    border: 2px solid gray;
+    background: none;
+    position: relative;
+    top: 0;
+    left: 0;
+    z-index: 1;
+    padding: 8px 12px;
+    outline: 0;
+
+    //the "+ label" is IF I want the label to stay up when the information is valid
+    &:valid + label {
+      // Hides the label
+      //background: white;
+
+      //this is IF I want the label to stay up when the information is valid
+
+      top: -26px;
+      color: $mainBlue;
+      font-size: 85%;
+      z-index: 2;
+      padding: 7px 0;
+
+    }
+    &:focus {
+      //changes the border of the input
+      border-color: $mainBlue;
+    }
+    &:focus + label { //when you focus on the input this happens to the label
+      //background: #f06d06;
+      top: -26px;
+      color: $mainBlue;
+      font-size: 85%;
+      z-index: 2;
+      padding: 7px 0;
+    }
+    &:focus + label.test {
+      top: -26px;
+    }
+
+    &:valid + label.test {
+      top: -26px;
+    }
+
+  }
+
+  //styles the labels for the inputs
+  label {
+    height: 50px;
+    transition: // not padding
+            background 0.2s,
+            color 0.2s,
+            top 0.7s,
+            bottom 0.7s,
+            right 0.2s,
+            left 0.2s;
+    position: absolute;
+    color: #999;
+    padding: 7px 6px;
+  }
+
+  textarea {
+    display: block;
+    resize: vertical;
+    height: 250px;
+    min-height: 50px;
+  }
+}
+
+//positions the label
+form.contactForm {
+  label {
+    top: 0;
+    bottom: 0;
+    left: 0;
+    //width: 100%;
+  }
+
+  label.test {
+    top: 0;
+    bottom: 0;
+    left: 235px;
+  }
+}
+
+
+//styles the submit button
+.submit {
+  color: #999;
+}
+.submit:hover {
+  border: 2px $mainBlue solid;
+  color: black;
+}
+
+#successMessage {
+  width: 500px;
+  height: 40px;
+  margin-top: 10px;
+  color: $mainText;
+  background-color: #5d9451;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.labelFont {
+  font-family: $secondaryFont;
+}
+
+
+/*
+#name:valid {
+  background: url('../images/contact/check.png') no-repeat 190px 3px;
+  background-size: 25px 25px;
+}
+
+#email:valid {
+  background: url('../images/contact/check.png') no-repeat 190px 3px;
+  background-size: 25px 25px;
+}
+
+#website:valid {
+  background: url('../images/contact/check.png') no-repeat 425px 3px;
+  background-size: 25px 25px;
+}
+
+#subject:valid {
+  background: url('../images/contact/check.png') no-repeat 425px 3px;
+  background-size: 25px 25px;
+}
+
+#message:valid {
+  background: url('../images/contact/check.png') no-repeat 425px 3px;
+  background-size: 25px 25px;
+}
+*/

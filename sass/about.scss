@@ -1,0 +1,190 @@
+#aboutWrapper {
+  width: 100%;
+  min-height: 800px;
+  //border: 1px black solid;
+  display: flex;
+  justify-content: center;
+  margin-bottom: 30px;
+}
+
+#aboutSectionWrapper {
+  width: 850px;
+  min-width: 500px;
+  height: 100%;
+  margin-top: 30px;
+  //border: 1px black solid;
+}
+
+#aboutTopSection {
+  width: 100%;
+  min-height: 150px;
+  //border: 1px black solid;
+  display: flex;
+  flex-direction: row;
+}
+
+#profilePic {
+  width: 150px;
+  height: 150px;
+  background-image: url('../images/about/profile2.jpg');
+}
+
+#description {
+  width: 850px;
+  height: 100%;
+  padding-left: 25px;
+  font-size: 20px;
+  font-family: $secondaryFont;
+}
+
+#aboutBotSection {
+  min-height: 500px;
+  width: 100%;
+  //border: 1px black solid;
+  margin-top: 30px;
+  display: flex;
+  flex-direction: column;
+}
+
+#botTitle {
+  width: 100%;
+  font-size: 45px;
+  margin-bottom: 30px;
+  font-family: $mainFont;
+}
+
+#botSection {
+  width: 100%;
+  height: 100%;
+  //border: 1px black solid;
+  display: flex;
+  flex-direction: row;
+  margin-left: 25px;
+}
+
+#botLeft {
+  display: flex;
+  flex-direction: column;
+}
+
+.botHeaders {
+  font-size: 20px;
+  margin-bottom: 25px;
+  font-family: $mainFont;
+}
+
+.logoSection {
+  min-width: 200px;
+  min-height: 150px;
+ // border: 1px black solid;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  margin-bottom: 20px;
+}
+
+.aboutLogos {
+  height: 150px;
+  width: 100px;
+  //border: 1px black solid;
+  display: flex;
+  flex-direction: column;
+  margin-left: 10px;
+}
+
+.logoPic {
+  height: 100px;
+  width: 100px;
+}
+
+.logoName {
+  height: 50px;
+  width: 100px;
+  //border-top: 1px black solid;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: $secondaryFont;
+}
+
+#html {
+  background-image: url('../images/about/html.png');
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+#css {
+  background-image: url('../images/about/css.png');
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+#sass {
+  background-image: url('../images/about/sass.png');
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+#javascript {
+  background-image: url('../images/about/javascript.png');
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+#jquery {
+  background-image: url('../images/about/jquery.png');
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+#react {
+  background-image: url('../images/about/react.png');
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+#vue {
+  background-image: url('../images/about/vue.png');
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+#php {
+  background-image: url('../images/about/php.png');
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+#sql {
+  background-image: url('../images/about/sql.png');
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+#photoshop {
+  background-image: url('../images/about/photoshop.png');
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+#illustrator {
+  background-image: url('../images/about/illustrator.png');
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+#xd {
+  background-image: url('../images/about/xd.png');
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.highlighted-project {
+  font-family: $secondaryFont;
+  font-weight: 900;
+  color: $mainBlue ;
+  text-decoration: none;
+}
+
+.description-text {
+}
